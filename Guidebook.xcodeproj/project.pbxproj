@@ -18,6 +18,7 @@
 		9F4F0EB02B647E0900858C97 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EAF2B647E0900858C97 /* Attraction.swift */; };
 		9F4F0EB22B6484FC00858C97 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EB12B6484FC00858C97 /* CityCard.swift */; };
 		9F4F0EB42B6487D800858C97 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F0EB32B6487D800858C97 /* AttractionRow.swift */; };
+		9F4F0EB62B6884BC00858C97 /* DemoData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F0EB52B6884BC00858C97 /* DemoData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		9F4F0EAF2B647E0900858C97 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		9F4F0EB12B6484FC00858C97 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
 		9F4F0EB32B6487D800858C97 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
+		9F4F0EB52B6884BC00858C97 /* DemoData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DemoData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,12 +72,13 @@
 				9F4F0EB12B6484FC00858C97 /* CityCard.swift */,
 				9F4F0EA92B647D5F00858C97 /* DetailView.swift */,
 				9F4F0EA72B647D5800858C97 /* AttractionView.swift */,
+				9F4F0EB32B6487D800858C97 /* AttractionRow.swift */,
 				9F4F0E992B647D1D00858C97 /* GuidebookApp.swift */,
 				9F4F0E9B2B647D1D00858C97 /* CityView.swift */,
 				9F4F0EAB2B647D8000858C97 /* DataService.swift */,
+				9F4F0EB52B6884BC00858C97 /* DemoData.json */,
 				9F4F0E9D2B647D1E00858C97 /* Assets.xcassets */,
 				9F4F0E9F2B647D1E00858C97 /* Preview Content */,
-				9F4F0EB32B6487D800858C97 /* AttractionRow.swift */,
 			);
 			path = Guidebook;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4F0EA12B647D1E00858C97 /* Preview Assets.xcassets in Resources */,
+				9F4F0EB62B6884BC00858C97 /* DemoData.json in Resources */,
 				9F4F0E9E2B647D1E00858C97 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

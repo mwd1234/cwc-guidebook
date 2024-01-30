@@ -33,9 +33,8 @@ struct CityView: View {
                 .padding(.horizontal)
                 
             }
-            .ignoresSafeArea()
             .onAppear {
-                cities = dataService.getData()
+                cities = dataService.getFileData()
             }
         }
         
